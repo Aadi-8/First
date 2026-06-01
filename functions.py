@@ -7,17 +7,29 @@ a=5
 while (a>0):
     print(a)
     a = a+1
-    if (a==8):
+    if (a==7):
         break
 # to continue but skip specific
 print("continue statement")
-for b in range(1,8):
+for b in range(1,3):
     print(b-1)
-    if (b==6):
+    if (b==2):
         print("dd")
         continue
 
-print("done till here")
+print("functions")
+
+def fun1(a,b):
+        i=float((a*b)/(b-a))
+        print(i)
+#we can use if else in def 
+fun1(8,13)
+# using pass we can defin the function later and the code dont throw error
+def fun2(a,b):
+        pass
+
+
+        
           
 
 
