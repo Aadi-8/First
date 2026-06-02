@@ -4,23 +4,22 @@ b = int(input("Enter second number: "))
 
 print(''' 
 1=ADDITION
-2=SUBTRACTION
+2=SUBTRACTION 
 3=MULTILICATION
-4=DIVIDE''')
+4=DIVIDE''')         #using triple colan for multiple strings 
 
-c = int((input("Enter the oprator: ")))
+c = input("Enter the oprator: ")
 
-if (c==1):
-    print(a+b)
-elif (c==2):
+if (c=="1"):          #we are taking string because input always take string
+    print(a+b)                       
+elif (c=="2"):
     print(a-b)
-elif (c==3):
+elif (c=="3"):
     print(a*b)
-elif (c==4):
+elif (c=="4"):
     print(a/b)
 else:
-    print("invalid input")
+    print("invalid input")       #this is error handaling
 
-print("aa")
 
 
