@@ -52,5 +52,12 @@ print(f)
 
 l=[1,2,3,4,55]
 print(l[4])
-
-print('print ')
+# if (__name__)=="__main__":
+s1={2,4,56,78}
+s2={1,3,4,69,99}
+#s1 s2 is sets we can use union and intersection in sets and we can perform all set operation of maths
+print(s1.union(s2))
+print(s1.intersection(s2))
+# s1.update(s2)        # this will update s1 with the union of s1 and s2
+# print(s1)            #this will print updated s1 we can do same for intersecion
+print(s1.pop())
